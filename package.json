@@ -1,0 +1,30 @@
+{
+  "name": "express-finance",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "body-parser": "~1.17.1",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.3",
+    "ejs": "~2.5.6",
+    "express": "~4.15.2",
+    "morgan": "~1.8.1",
+    "serve-favicon": "~2.4.2",
+
+    "gulp": "^3.9.1",
+    "gulp-changed": "^1.3.0",
+    "gulp-clean-css": "^2.0.10",
+    "gulp-htmlhint": "^0.3.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-rtlcss": "^1.0.0",
+    "gulp-sass": "^2.3.2",
+    "gulp-uglify": "^1.5.4"
+  },
+  "engines": {
+    "node": "6.11.2",
+    "npm": "3.10.10"
+  }
+}
