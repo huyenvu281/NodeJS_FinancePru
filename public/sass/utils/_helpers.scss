@@ -5,13 +5,13 @@
 .row-space-2 {
     margin-right: -2px;
     margin-left: -2px;
-    border: 1px solid blue;
-    text-align: center;
+
     > [class*="col-"] {
         padding-left: 2px;
         padding-right: 2px;
     }
 }
+
 
 /*--------------------------------------------------
     [Container Full Width]
