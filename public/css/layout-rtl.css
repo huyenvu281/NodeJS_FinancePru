@@ -341,7 +341,8 @@ fieldset[disabled] .btn-theme {
   height: 25px;
   border: none;
   padding: 0;
-  margin: 35px 0;
+  margin-top: 35px 0;
+  margin-right: ;
 }
 
 .header .navbar-toggle .toggle-icon {

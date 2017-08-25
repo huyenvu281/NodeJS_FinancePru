@@ -481,6 +481,10 @@ fieldset[disabled] .btn-theme {
     [Header]
 ------------------------------------------------------------------*/
 /* Fixed Top */
+.navbar-fixed-top {
+  padding-right: 100px !important;
+}
+
 .navbar-fixed-top .navbar-collapse {
   max-height: 100%;
 }
@@ -1013,8 +1017,8 @@ fieldset[disabled] .btn-theme {
 }
 
 .content-lg {
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 /*------------------------------------------------------------------
