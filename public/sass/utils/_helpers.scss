@@ -5,13 +5,13 @@
 .row-space-2 {
     margin-right: -2px;
     margin-left: -2px;
-
+    border: 1px solid blue;
+    text-align: center;
     > [class*="col-"] {
         padding-left: 2px;
         padding-right: 2px;
     }
 }
-
 
 /*--------------------------------------------------
     [Container Full Width]
@@ -152,7 +152,7 @@
 /*------------------------------------------------------------------
     [Top margin below 992px]
 ------------------------------------------------------------------*/
-F
+
 @media (max-width: $screen-md-min) {
     .md-margin-b-0 { margin-bottom: 0 !important; }
     .md-margin-b-4 { margin-bottom: 4px !important; }

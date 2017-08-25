@@ -430,6 +430,7 @@ fieldset[disabled] .btn-theme {
 .service {
   background: #fff;
   padding: 30px;
+  text-align: left;
 }
 
 .service .service-element,
@@ -460,9 +461,9 @@ fieldset[disabled] .btn-theme {
 }
 
 .service:hover .service-info {
-  -webkit-transform: translate3d(0, -30%, 0);
-  -moz-transform: translate3d(0, -30%, 0);
-  transform: translate3d(0, -30%, 0);
+  -webkit-transform: translate3d(0, -20%, 0);
+  -moz-transform: translate3d(0, -20%, 0);
+  transform: translate3d(0, -20%, 0);
   transition-duration: 300ms;
   transition-property: all;
   transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
@@ -594,8 +595,8 @@ fieldset[disabled] .btn-theme {
 
 .header .home-img {
   display: inline-block;
-  width: 50px;
-  height: 50px;
+  width: 40px;
+  height: 40px;
   max-width: 100%;
   max-height: 100%;
   vertical-align: middle;
@@ -661,7 +662,7 @@ fieldset[disabled] .btn-theme {
   left: 0;
   width: 9px;
   height: 2px;
-  background: #17bed2;
+  background: #FF0000;
   opacity: 0;
   content: " ";
   transition-duration: 400ms;
@@ -936,6 +937,8 @@ fieldset[disabled] .btn-theme {
 .row-space-2 {
   margin-right: -2px;
   margin-left: -2px;
+  border: 1px solid blue;
+  text-align: center;
 }
 
 .row-space-2 > [class*="col-"] {

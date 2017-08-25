@@ -67,10 +67,11 @@ gulp.task('rtlcss', function () {
 });
 
 
-// Minify JS - Minifies JS
+/*
+// Minify JS - Minifies JgS
 gulp.task('uglify', function (cb) {
   	pump([
-	        gulp.src(['./public/js/**/*.js', '!./public/js/**/*.min.js']),
+	        gulp.src(['./public/js/!**!/!*.js', '!./public/js/!**!/!*.min.js']),
 	        uglify(),
 			rename({ suffix: '.min' }),
 	        gulp.dest('./public/js/')
@@ -78,6 +79,7 @@ gulp.task('uglify', function (cb) {
 		cb
 	);
 });
+*/
 
 
 // Htmlhint - Validate HTML
@@ -94,7 +96,7 @@ gulp.task('htmlhint', function() {
 // --------------------------------------------------
 
 // Lets us type "gulp" on the command line and run all of our tasks
-gulp.task('default', ['sass', 'minify-css', 'rtlcss', 'uglify', 'htmlhint', 'watch']);
+gulp.task('default', ['sass', 'minify-css', 'rtlcss', 'htmlhint', 'watch']);
 
 // This handles watching and running tasks
 gulp.task('watch', function () {

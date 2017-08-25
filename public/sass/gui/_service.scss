@@ -5,6 +5,7 @@
 .service {
 	background: $color-white;
 	padding: 30px;
+	text-align: left;
 
 	.service-element,
 	.service-info {
@@ -27,7 +28,7 @@
 		}
 
 		.service-info {
-			@include translate3d(0,-30%,0);
+			@include translate3d(0,-20%,0);
 			@include cubic-transition($delay: 0, $duration: 300ms, $property: (all));
 		}
 	}
