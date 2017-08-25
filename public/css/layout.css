@@ -481,10 +481,6 @@ fieldset[disabled] .btn-theme {
     [Header]
 ------------------------------------------------------------------*/
 /* Fixed Top */
-.navbar-fixed-top {
-  padding-right: 100px !important;
-}
-
 .navbar-fixed-top .navbar-collapse {
   max-height: 100%;
 }
@@ -506,6 +502,7 @@ fieldset[disabled] .btn-theme {
   border: none;
   padding: 0;
   margin: 35px 0;
+  float: left;
 }
 
 .header .navbar-toggle .toggle-icon {
@@ -582,6 +579,7 @@ fieldset[disabled] .btn-theme {
 .header .logo-wrap {
   display: inline-block;
   padding: 15px 0;
+  margin-left: 10px;
 }
 
 .header .logo-wrap:focus, .header .logo-wrap:hover {
