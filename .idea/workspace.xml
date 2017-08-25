@@ -2,14 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0932a8eb-ee9c-4c9d-9a0d-3d57b4ff6918" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/icon/8.png" afterPath="$PROJECT_DIR$/public/images/icon/8.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gulpfile.js" afterPath="$PROJECT_DIR$/gulpfile.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/layout.css" afterPath="$PROJECT_DIR$/public/css/layout.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/layout.min.css" afterPath="$PROJECT_DIR$/public/css/layout.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/sass/gui/_service.scss" afterPath="$PROJECT_DIR$/public/sass/gui/_service.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/sass/layout/_header.scss" afterPath="$PROJECT_DIR$/public/sass/layout/_header.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/sass/utils/_helpers.scss" afterPath="$PROJECT_DIR$/public/sass/utils/_helpers.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/index.ejs" afterPath="$PROJECT_DIR$/views/index.ejs" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -27,8 +19,8 @@
       <file leaf-file-name="index.ejs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views/index.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2011">
-              <caret line="222" column="33" lean-forward="true" selection-start-line="222" selection-start-column="33" selection-end-line="222" selection-end-column="33" />
+            <state relative-caret-position="350">
+              <caret line="342" column="13" lean-forward="false" selection-start-line="342" selection-start-column="13" selection-end-line="342" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -438,12 +430,12 @@
       <workItem from="1503279655987" duration="2279000" />
       <workItem from="1503543775716" duration="2974000" />
       <workItem from="1503549540839" duration="5677000" />
-      <workItem from="1503630119806" duration="4531000" />
+      <workItem from="1503630119806" duration="5293000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46847000" />
+    <option name="totallyTimeSpent" value="47609000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1172,8 +1164,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/views/index.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2011">
-          <caret line="222" column="33" lean-forward="true" selection-start-line="222" selection-start-column="33" selection-end-line="222" selection-end-column="33" />
+        <state relative-caret-position="350">
+          <caret line="342" column="13" lean-forward="false" selection-start-line="342" selection-start-column="13" selection-end-line="342" selection-end-column="13" />
           <folding />
         </state>
       </provider>
